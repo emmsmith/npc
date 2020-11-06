@@ -1,0 +1,208 @@
+.galleria { 
+  width: 650px; 
+  height: 400px;
+  margin: auto;
+}
+
+/* Universal Styles */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #fafffc;
+    /*background-color: #f1eef1;*/
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #photo {
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+
+  /* Header Section */
+
+header {
+    /*font-family: 'Comic Neue', cursive;*/
+    width: 95%;
+    position: relative;
+    z-index: 1;
+    height: 138px;
+    /*border-bottom: 1px solid black;*/
+    align-items: center;
+    overflow: hidden;
+    padding: 15px 2.5%;
+    margin-bottom: 10px;
+  }
+  
+  #logo {
+    width: 216px;
+    height: 150px;
+  }
+  
+  nav {
+    text-align: right;
+    flex-grow: 1;
+  }
+  
+  nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 20pt;
+  }
+  
+  header h1 {
+    text-align: left;
+    margin: auto;
+    font-weight: bolder;
+    padding-left: 20px;
+  }
+
+  h1 {
+    font-family: Arial Black;
+    background-color: #b4edd2;
+    border-radius: 200px;
+    padding: 5px 20px;
+    margin: 10px auto;
+    width: fit-content;
+  }
+
+  #intro {
+    margin: 0 60px;
+  }
+
+  .sitemap {
+    background-color: #a0cfd3;
+    margin: 10px;
+    border-radius: 20px;
+  }
+
+  #sitemapp {
+    padding: 5px 25px;
+    font-size: 30pt;
+    width: fit-content;
+    background-color: #8d94ba;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 10px;
+    margin-top: 0px;
+    color: #fafffc;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  ul {
+    margin: 0 25%;
+    text-align: left;
+  }
+
+  #list {
+    
+    padding-bottom: 30px;
+  }
+
+  form {
+    font-size: 16pt;
+    font-weight: 600;
+    padding: 25px;
+    background-color: #a0cfd3;
+    border-radius: 200px;
+    padding: 5px 20px;
+    margin: 10px auto;
+    width: fit-content;
+  }
+  #module {
+    padding: 20px;
+    font-size: 26pt;
+    font-weight: 500;
+    background-color: #b4edd2;
+    border-radius: 200px;
+    padding: 5px 20px;
+    margin: 10px auto;
+    width: fit-content;
+  }
+
+  #button {
+    background-color: #8d94ba;
+    border-radius: 200px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  }
+
+  /* Media queries*/
+
+  @media screen and (max-width: 650px) {
+    body {
+      font-size: 11pt;
+    }
+
+    #photo {
+      height: 200px;
+      width: 300px;
+    }
+
+    #logo {
+      width: 144px;
+      height: 100px;
+    }
+
+    nav span {
+      font-size: 12pt;
+    }
+
+    .galleria { 
+      width: 350px; 
+      height: 200px;
+    }
+
+    #intro {
+      margin: 0 30px;
+  }
+  }
+
+  @media screen and (max-width: 400px) {
+    nav {
+      text-align: center;
+  }
+
+  .galleria { 
+    width: 210px; 
+    height: 120px;
+  }
+
+  #intro {
+    margin: 0 15px;
+}
+
+#photo {
+  height: 140px;
+  width: 200px;
+}
+
+  }
